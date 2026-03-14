@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
@@ -54,7 +54,8 @@ const Contact = () => {
                 <label>Phone Number</label>
                 <input type="text" name='phone' placeholder='Enter your Phone number'  required />
                 <label >Write your massege here</label>
-                <textarea name="message" row="6" placeholder='Write something' id=""></textarea>
+                <textarea name="message" rows="6" placeholder='Write something' id=""></textarea>
+                {/* <textarea name="message" row="6" placeholder='Write something' id=""></textarea> */}
                 <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt="" /> </button>
             </form>
             <span>{result}</span>
